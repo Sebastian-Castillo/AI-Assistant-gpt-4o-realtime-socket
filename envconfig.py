@@ -8,7 +8,7 @@ load_dotenv()
 class DefaultConfig:
     """ Bot Configuration """
 
-    az_openai_key=os.getenv("az_openai_key")
-    az_open_ai_endpoint_name=os.getenv("az_open_ai_endpoint_name")
-    az_openai_api_version=os.getenv("az_openai_api_version")
-    model_name=os.getenv("model_name")
+    az_openai_key="045bdcb95d814eb3a5c05592dfb44dad"
+    az_open_ai_endpoint_name="inteligenciaartificial-pia-dev-oai-01"
+    az_openai_api_version="2024-10-01-preview"
+    model_name="gpt-4o-realtime-preview"
