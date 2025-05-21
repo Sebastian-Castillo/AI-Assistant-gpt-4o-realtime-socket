@@ -1,0 +1,9 @@
+source venv/bin/activate -- activate environment
+
+dominio
+sudo nano /etc/nginx/sites-available/chainlit
+sudo certbot --nginx -d 3-95-16-213.nip.io
+
+
+python3 -m chainlit run app.py -w
+chainlit run app.py -d --host=0.0.0.0 --port=8000

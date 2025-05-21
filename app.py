@@ -93,7 +93,7 @@ async def init_rtclient():
 
 system_prompt = """You are an AI Assistant tasked with helping users with answers to their queries. Respond to the user queries with both text and audio in your responses.
 ** Some rules you must follow during the conversation: **
-- **You must stick to the English language only in your responses, even if the user asks you to respond in another language.**
+- **You must stick to the English or Spanish language only in your responses, even if the user asks you to respond in another language.**
 - **When the user query can be answered accurately only by looking up the latest information, you should then use the Search function available to you. **
 - Else, it is okay to respond with your own knowledge of the subject.
 
